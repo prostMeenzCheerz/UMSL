@@ -1,8 +1,13 @@
 THIS PROJECT IS NOT COMPLETED IN ACCORDANCE WITH THE INSTRUCTIONS, AND SHOULD BE CHECKED FOR PROCESSES RUNNING, AND MEMORY THAT ISN'T CLEARED UP.
 
-I cannot begin to describe the amount of hours spent on this project, but it's been over 3 weeks, and I have to move on.
-
 -To handle concurrency I used semaphores instead of message queues.
--My approach was to create an array of 18 structs that would be given out to each user process.  Aside from the struct members used to keep track of time, I created other members to be used as flag variables in an attempt to corral the actions of the oss and user processes.
--The file used to hold data output by the oss is log.txt.  I took advantage of the freopen function so every time the program was run, the file pointer would be writting to a blank file.  This was just to save you a step from having to run make clean if you wanted to run the program several times.
--You will have to run make for your initial run of the program.  ./oss from the command will then start it.
+
+-My approach was to create an array of 18 structs that would be given out to each user process.  
+  Aside from the struct members used to keep track of time, I created other members to be used as flag variables in an attempt to 
+  corral the actions of the oss and user processes.
+
+-The file used to hold data output by the oss is log.txt.  
+  I took advantage of the freopen function so every time the program was run, the file pointer would be writting to a blank file.  
+  This was just to save you a step from having to run make clean if you wanted to run the program several times.
+
+-You will have to run make for your initial run of the program.  ./oss from the command line to run.
