@@ -1,0 +1,9 @@
+To run this project simply type ./oss
+
+to choose the amount of processes you would like to have running at one time simply type ./oss -x (then the number you would like)
+if you choose anything over 18, it will default to 18, likewise anything lower than 1, it will default to 1
+
+the log file is called log.txt
+again, i utilized the freopen() function call, so every run of the program a new log file will be created without have to remove the previous one, so once you make that's all you'll need to do
+
+i have also configured the statistics that you mentioned in the rubric for the program, and they will print to stdout upon completion of the program
