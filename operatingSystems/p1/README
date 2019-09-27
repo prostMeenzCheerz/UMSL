@@ -1,0 +1,11 @@
+To run this project, first type make on the command line to compile everything and create the executibles: master and child.
+
+After running make, type ./master as the main executible.  You can then either type -h for a help message, or -n x for the number of total child processes to be forked off, followed by -s x for the total number of child processes to be running at any given time until the total number of processes have been forked.  
+
+If -s x is greater than -n x, then the program will simply fork off the total number of processes as denoted by -n without the limit of a certain number of processes at a time.
+
+You can also just run ./master -n x to run the program without putting a limit on the number of processes forked at any given time.
+
+If the program takes longer than 2 seconds to complete its task, then it will automatically terminate all the child processes, clear the shared memory and exit.
+
+You can also type ctrl C at any time during the program execution to terminate the program.
