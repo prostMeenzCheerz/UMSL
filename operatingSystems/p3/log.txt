@@ -1,0 +1,54 @@
+forked a new process at position 0 at 0.0 seconds
+no processes running, so increment the clock, time is 1.1000540 seconds
+forked a new process at position 0 at 1.1000540 seconds
+no processes running, so increment the clock, time is 2.2000816 seconds
+forked a new process at position 0 at 2.2000816 seconds
+no processes running, so increment the clock, time is 3.3001160 seconds
+forked a new process at position 0 at 3.3001160 seconds
+no processes running, so increment the clock, time is 4.4002086 seconds
+forked a new process at position 0 at 4.4002086 seconds
+no processes running, so increment the clock, time is 5.5002913 seconds
+forked a new process at position 0 at 5.5002913 seconds
+no processes running, so increment the clock, time is 6.6003090 seconds
+forked a new process at position 0 at 6.6003090 seconds
+no processes running, so increment the clock, time is 7.7003944 seconds
+forked a new process at position 0 at 7.7003944 seconds
+no processes running, so increment the clock, time is 8.8004917 seconds
+forked a new process at position 0 at 8.8004917 seconds
+no processes running, so increment the clock, time is 9.9005520 seconds
+forked a new process at position 0 at 9.9005520 seconds
+no processes running, so increment the clock, time is 10.10005829 seconds
+forked a new process at position 0 at 10.10005829 seconds
+no processes running, so increment the clock, time is 11.11006614 seconds
+forked a new process at position 0 at 11.11006614 seconds
+no processes running, so increment the clock, time is 12.12007091 seconds
+forked a new process at position 0 at 12.12007091 seconds
+no processes running, so increment the clock, time is 13.13008029 seconds
+forked a new process at position 0 at 13.13008029 seconds
+no processes running, so increment the clock, time is 14.14008331 seconds
+forked a new process at position 0 at 14.14008331 seconds
+no processes running, so increment the clock, time is 15.15008889 seconds
+forked a new process at position 0 at 15.15008889 seconds
+no processes running, so increment the clock, time is 16.16009827 seconds
+forked a new process at position 0 at 16.16009827 seconds
+no processes running, so increment the clock, time is 17.17009871 seconds
+forked a new process at position 0 at 17.17009871 seconds
+no processes running, so increment the clock, time is 18.18010021 seconds
+forked a new process at position 0 at 18.18010021 seconds
+no processes running, so increment the clock, time is 19.19010717 seconds
+forked a new process at position 0 at 19.19010717 seconds
+no processes running, so increment the clock, time is 20.20011478 seconds
+forked a new process at position 0 at 20.20011478 seconds
+no processes running, so increment the clock, time is 21.21011933 seconds
+forked a new process at position 0 at 21.21011933 seconds
+no processes running, so increment the clock, time is 22.22012435 seconds
+forked a new process at position 0 at 22.22012435 seconds
+no processes running, so increment the clock, time is 23.23012764 seconds
+forked a new process at position 0 at 23.23012764 seconds
+no processes running, so increment the clock, time is 24.24013614 seconds
+forked a new process at position 0 at 24.24013614 seconds
+no processes running, so increment the clock, time is 25.25013642 seconds
+forked a new process at position 0 at 25.25013642 seconds
+no processes running, so increment the clock, time is 26.26013800 seconds
+forked a new process at position 0 at 26.26013800 seconds
+no processes running, so increment the clock, time is 27.27014394 seconds
