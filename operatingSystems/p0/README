@@ -1,5 +1,3 @@
-First, let me apologize for all the commits.  I hope it's not to terrible to comprehend.
-
 I used git for my version control.  
 
 For each question on this project, I worked with them individually.  This means, I started with the base code, got that working, and that became my master branch.  I then started branching from question 4 all the way through
