@@ -1,0 +1,18 @@
+For this project, I decided to use an unamed SysV semaphore, because I was unable to get the named POSIX semaphore to work properly.
+
+I tried my best to modularize my code, so all of the function definitions are below main.
+
+I have also tried my best to comment out the code as much as possible to explain the logic.
+
+
+To run:
+
+start by running 'make'
+
+call with -s for number of processes to have running at one time
+
+use -l to choose the name of your logfile, otherwise it is defaulted to log.txt (make clean will remove that file)
+
+use -t to change the time on for the alarm on the signal handler to terminate the program
+
+(TO RUN A SECOND TIME, TYPE: 'make clean')
