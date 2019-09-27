@@ -1,0 +1,8 @@
+to run the program, type ./oss
+
+for verbose on, use the getopt -v then type "on"
+otherwise verbose is automatically set to off
+
+the project will clean up nicely, but my log.txt file will be nowhere near 100000 lines
+
+also, i keep track of how long processes were blocked in my log file

@@ -1,0 +1,340 @@
+0: process P2 is terminating at 7.670 
+1: process P2 is terminating at 8.2 
+2: process P2 is terminating at 8.259 
+3: process P2 requested resource 0 at 8.596
+4: process P2 requested resource 3 at 8.920
+5: process P2 is releasing resource 0 at 9.235
+6: process P2 requested resource 14 at 9.808
+7: process P2 requested resource 19 at 10.210
+8: process P2 requested resource 6 at 10.301
+9: process P14 is terminating at 10.808 
+10: process P2 requested resource 10 at 10.808
+11: process P2 is terminating at 11.12 
+12: process P2 requested resource 7 at 11.12
+13: process P2 is terminating at 11.204 
+14: process P2 requested resource 3 at 11.204
+15: process P2 is terminating at 11.423 
+16: process P2 requested resource 6 at 11.423
+17: process P2 is terminating at 11.599 
+18: process P2 requested resource 17 at 11.802
+19: process P2 requested resource 0 at 11.911
+20: process P2 requested resource 18 at 12.176
+21: process P2 requested resource 15 at 12.362
+22: process P2 requested resource 9 at 12.918
+23: process P2 requested resource 14 at 13.319
+24: process P2 requested resource 8 at 13.445
+25: process P2 requested resource 6 at 13.788
+26: process P2 requested resource 0 at 13.985
+27: process P2 is releasing resource 18 at 14.192
+28: process P2 requested resource 11 at 14.871
+29: process P2 requested resource 7 at 15.220
+
+	R0	R1	R2	R3	R4	R5	R6	R7	R8	R9	R10	R11	R12	R13	R14	R15	R16	R17	R18	R19
+P[0]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[1]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[2]	 2	 0	 0	 0	 0	 0	 1	 1	 1	 1	 0	 1	 0	 0	 1	 1	 0	 1	 0	 0	
+P[3]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[4]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[5]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[6]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[7]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[8]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[9]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[10]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[11]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[12]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[13]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[14]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[15]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[16]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[17]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+
+51: process P2 requested resource 15 at 15.547
+52: process P2 is terminating at 15.837 
+53: process P2 requested resource 10 at 15.837
+54: process P2 requested resource 15 at 16.14
+55: process P2 requested resource 3 at 16.81
+56: process P2 requested resource 12 at 16.410
+57: process P2 is terminating at 16.517 
+58: process P2 requested resource 11 at 16.762
+59: process P2 requested resource 18 at 16.953
+60: process P2 requested resource 12 at 17.392
+61: process P2 is terminating at 17.866 
+62: process P1 is terminating at 17.996 
+63: process P1 requested resource 11 at 17.996
+64: process P1 is terminating at 18.39 
+65: process P1 requested resource 15 at 18.39
+66: process P1 is terminating at 18.442 
+67: process P1 requested resource 16 at 18.442
+68: process P1 is terminating at 18.687 
+69: process P1 is terminating at 18.889 
+70: process P1 is terminating at 19.147 
+71: process P1 requested resource 1 at 19.147
+72: process P1 requested resource 9 at 19.436
+73: process P0 was blocked at 19.847
+74: process P0 was blocked at 20.229
+75: process P0 was blocked at 20.749
+76: process P3 was blocked at 21.499
+77: process P3 is terminating at 21.780 
+78: process P3 is terminating at 22.125 
+79: process P3 requested resource 7 at 22.125
+80: process P3 is terminating at 23.291 
+81: process P3 requested resource 18 at 24.99
+82: process P3 was blocked at 24.714
+83: process P3 requested resource 1 at 25.155
+84: process P3 requested resource 16 at 26.167
+85: process P3 requested resource 11 at 26.901
+86: process P3 requested resource 8 at 27.52
+87: process P3 requested resource 5 at 27.319
+
+	R0	R1	R2	R3	R4	R5	R6	R7	R8	R9	R10	R11	R12	R13	R14	R15	R16	R17	R18	R19
+P[0]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[1]	 0	 1	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[2]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[3]	 0	 1	 0	 0	 0	 1	 0	 0	 1	 0	 0	 1	 0	 0	 0	 0	 1	 0	 1	 0	
+P[4]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[5]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[6]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[7]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[8]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[9]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[10]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[11]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[12]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[13]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[14]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[15]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[16]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[17]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+
+109: process P3 is terminating at 27.499 
+110: process P3 requested resource 19 at 27.499
+111: process P3 is releasing resource 19 at 27.882
+112: process P3 requested resource 15 at 28.102
+113: process P3 is terminating at 28.278 
+114: process P6 was blocked at 28.278
+115: process P6 was blocked at 29.92
+116: process P6 was blocked at 29.626
+117: process P6 was blocked at 29.670
+118: process P6 was blocked at 29.954
+119: process P6 was blocked at 30.601
+120: process P6 was blocked at 31.38
+121: process P6 was blocked at 31.655
+122: process P2 was blocked at 32.126
+123: process P2 was blocked at 32.393
+124: process P2 was blocked at 32.884
+125: process P2 was blocked at 33.240
+126: process P2 was blocked at 33.284
+127: process P2 was blocked at 33.357
+128: process P5 was blocked at 34.954
+129: process P5 was blocked at 35.163
+130: process P4 was blocked at 35.874
+131: process P4 was blocked at 36.476
+132: process P4 was blocked at 37.2
+133: process P4 was blocked at 37.228
+134: process P14 requested resource 9 at 38.505
+135: process P14 requested resource 12 at 39.269
+136: process P9 requested resource 13 at 39.694
+137: process P9 requested resource 15 at 40.54
+138: process P9 requested resource 6 at 40.248
+139: process P9 requested resource 2 at 40.621
+140: process P9 is terminating at 41.29 
+141: process P9 requested resource 10 at 41.214
+142: process P9 requested resource 13 at 41.516
+143: process P7 was blocked at 42.610
+144: process P7 was blocked at 43.112
+145: process P7 was blocked at 43.372
+146: process P7 was blocked at 43.669
+147: process P11 was blocked at 43.878
+148: process P2 was blocked at 44.398
+149: process P2 was blocked at 44.825
+150: process P13 was blocked at 44.968
+151: process P13 was blocked at 45.381
+152: process P12 was blocked at 46.184
+153: process P12 was blocked at 47.82
+154: process P12 was blocked at 47.369
+155: process P2 was blocked at 47.601
+156: process P2 was blocked at 47.958
+157: process P2 was blocked at 48.395
+158: process P2 was blocked at 49.213
+159: process P2 was blocked at 49.538
+160: process P2 was blocked at 49.868
+161: process P2 was blocked at 51.364
+162: process P2 was blocked at 51.738
+163: process P2 was blocked at 52.16
+164: process P2 was blocked at 52.94
+165: process P2 was blocked at 52.489
+166: process P2 was blocked at 52.908
+167: process P2 was blocked at 53.198
+168: process P2 was blocked at 53.793
+169: process P2 was blocked at 54.154
+170: process P2 was blocked at 54.363
+171: process P2 was blocked at 55.10
+172: process P2 was blocked at 55.162
+173: process P2 was blocked at 55.801
+174: process P2 was blocked at 56.409
+175: process P2 was blocked at 57.406
+176: process P2 was blocked at 57.636
+177: process P2 was blocked at 57.884
+178: process P2 was blocked at 57.951
+179: process P2 was blocked at 58.420
+180: process P2 was blocked at 58.689
+181: process P2 was blocked at 58.911
+182: process P2 was blocked at 59.187
+183: process P2 was blocked at 59.801
+184: process P2 was blocked at 60.58
+185: process P2 was blocked at 60.344
+186: process P14 requested resource 3 at 60.731
+187: process P14 requested resource 8 at 60.856
+188: process P14 requested resource 13 at 61.257
+189: process P14 requested resource 15 at 61.483
+190: process P14 requested resource 13 at 61.901
+191: process P14 requested resource 4 at 62.456
+192: process P14 requested resource 5 at 62.569
+193: process P14 requested resource 5 at 63.31
+194: process P14 requested resource 10 at 63.492
+195: process P14 requested resource 14 at 63.862
+
+	R0	R1	R2	R3	R4	R5	R6	R7	R8	R9	R10	R11	R12	R13	R14	R15	R16	R17	R18	R19
+P[0]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[1]	 0	 1	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[2]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[3]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[4]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[5]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[6]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[7]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[8]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[9]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 1	 0	 0	 0	 0	 0	 0	
+P[10]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[11]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[12]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[13]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[14]	 0	 0	 0	 1	 1	 2	 0	 0	 1	 1	 1	 0	 1	 2	 1	 1	 0	 0	 0	 0	
+P[15]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[16]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+P[17]	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	
+
+217: process P14 requested resource 2 at 64.121
+218: process P14 requested resource 18 at 64.235
+219: process P14 requested resource 9 at 64.528
+220: process P14 requested resource 16 at 64.674
+221: process P14 requested resource 1 at 65.120
+222: process P14 is releasing resource 10 at 65.333
+223: process P14 requested resource 10 at 65.540
+224: process P14 is releasing resource 9 at 65.880
+225: process P14 is releasing resource 10 at 66.698
+226: process P14 is terminating at 66.981 
+227: process P14 requested resource 11 at 66.981
+228: process P14 is terminating at 67.369 
+229: process P14 is terminating at 67.650 
+230: process P14 is terminating at 68.15 
+231: process P14 requested resource 0 at 68.15
+232: process P14 is terminating at 68.32 
+233: process P14 requested resource 3 at 68.32
+234: process P14 is terminating at 68.275 
+235: process P14 requested resource 15 at 68.745
+236: process P14 requested resource 2 at 68.988
+237: process P14 requested resource 16 at 69.158
+238: process P14 was blocked at 69.404
+239: process P14 was blocked at 69.832
+240: process P14 was blocked at 70.93
+241: process P14 was blocked at 70.397
+242: process P14 was blocked at 70.671
+243: process P14 is releasing resource 15 at 70.827
+244: process P14 was blocked at 72.747
+245: process P14 was blocked at 73.388
+246: process P14 was blocked at 73.724
+247: process P15 was blocked at 74.400
+248: process P15 was blocked at 74.519
+249: process P15 was blocked at 74.931
+250: process P15 was blocked at 75.166
+251: process P15 was blocked at 75.387
+252: process P15 was blocked at 75.767
+253: process P15 was blocked at 76.786
+254: process P15 was blocked at 76.967
+255: process P15 was blocked at 77.431
+256: process P15 was blocked at 77.601
+257: process P1 is releasing resource 9 at 78.675
+258: process P1 requested resource 11 at 79.383
+259: process P1 requested resource 9 at 79.586
+260: process P1 requested resource 13 at 80.129
+261: process P1 is releasing resource 1 at 80.474
+262: process P0 was woken up at 80.474 and spent 60.4294967021 seconds in the queue
+263: process P1 was blocked at 80.668
+264: process P0 was woken up at 80.814 and spent 60.65 seconds in the queue
+265: process P0 was woken up at 81.34 and spent 61.4294966581 seconds in the queue
+266: process P1 was blocked at 81.351
+267: process P1 was blocked at 81.916
+268: process P1 was blocked at 82.769
+269: process P1 was blocked at 83.114
+270: process P1 was blocked at 83.565
+271: process P15 was blocked at 83.962
+272: process P15 was blocked at 84.324
+273: process P15 was blocked at 84.507
+274: process P15 was blocked at 84.820
+275: process P15 was blocked at 85.200
+276: process P15 was blocked at 86.275
+277: process P15 was blocked at 86.498
+278: process P15 was blocked at 87.249
+279: process P15 is terminating at 87.470 
+280: process P15 requested resource 17 at 87.470
+281: process P15 was blocked at 88.242
+282: process P1 was blocked at 89.179
+283: process P1 was blocked at 89.609
+284: process P1 was blocked at 89.789
+285: process P1 was blocked at 90.346
+286: process P1 was blocked at 90.909
+287: process P1 was blocked at 91.241
+288: process P1 was blocked at 91.280
+289: process P1 was blocked at 91.991
+290: process P1 was blocked at 92.85
+291: process P1 was blocked at 92.653
+292: process P1 was blocked at 93.483
+293: process P1 was blocked at 94.114
+294: process P1 was blocked at 94.395
+295: process P16 was blocked at 94.985
+296: process P16 was blocked at 95.657
+297: process P16 was blocked at 96.90
+298: process P16 was blocked at 96.199
+299: process P17 was blocked at 96.747
+300: process P17 was blocked at 97.96
+301: process P17 was blocked at 97.426
+302: process P17 was blocked at 97.613
+303: process P17 was blocked at 97.782
+304: process P17 was blocked at 97.956
+305: process P17 was blocked at 98.693
+306: process P0 was blocked at 99.549
+307: process P0 was blocked at 100.180
+308: process P0 was blocked at 100.506
+309: process P0 is releasing resource 19 at 100.624
+310: process P0 was blocked at 101.527
+311: process P0 was blocked at 102.52
+312: process P0 was blocked at 102.259
+313: process P0 was blocked at 102.483
+314: process P0 was blocked at 102.885
+315: process P0 was blocked at 103.407
+316: process P0 was blocked at 104.187
+317: process P0 was blocked at 105.138
+318: process P0 was blocked at 106.442
+319: process P0 was blocked at 106.759
+320: process P0 was blocked at 107.42
+321: process P0 is releasing resource 5 at 107.673
+322: process P0 was blocked at 108.123
+323: process P0 was blocked at 108.329
+324: process P0 was blocked at 108.405
+325: process P0 was blocked at 108.830
+326: process P0 was blocked at 109.228
+327: process P0 was blocked at 109.619
+328: process P0 is releasing resource 1 at 110.88
+329: process P0 was blocked at 110.202
+330: process P0 was blocked at 110.584
+331: process P0 was blocked at 110.930
+332: process P0 was blocked at 111.165
+333: process P0 was blocked at 111.742
+334: process P0 was blocked at 111.997
+335: process P0 was blocked at 112.272
+336: process P9 was blocked at 1864.21
+337: process P9 is terminating at 1864.188 
+338: process P9 requested resource 13 at 1864.540
+339: process P9 was blocked at 1865.177
