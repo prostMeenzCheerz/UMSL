@@ -1,0 +1,18 @@
+First, let me apologize for all the commits.  I hope it's not to terrible to comprehend.
+
+I used git for my version control.  
+
+For each question on this project, I worked with them individually.  This means, I started with the base code, got that working, and that became my master branch.  I then started branching from question 4 all the way through
+question 8.  None of the modifications from each individual question will carry over to the next branch.  For instance, the modified code from question 4 will not be carried over to the question 5 branch, and so on, down the line.  
+
+each branch from question 4 to question 8 will be titled question_x(x representing the question number from 4 - 8).  So, to checkout question 4, type:
+
+git checkout question_4
+
+I left the pointer 'head' on the master branch.  That's where you will start out.
+
+I ran make clean on all the branches, so they will have to be compiled.
+
+The '-h' function will print out exactly how the program for each branch should be run.
+
+

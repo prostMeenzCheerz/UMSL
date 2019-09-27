@@ -1,0 +1,18 @@
+1)  When calling the processes it looks like the initial process ID starts with a particular number, the child process ID is the next sequential number from the initial process ID incremented by 1.   The initial parent process ID seems to be unrelated from the other numbers.  However, unless the next parent process terminates before the child, it will have the same ID as the previous child process ID.  For instance, if i:1 process ID is 2000, the parent process ID will be something unrelated like 1350, but the child process ID will be 2001.  Then, the next process ID will be 2001, the parent process ID will be 2000, and the child process ID will be 2002.  This is all true unless the parent process exits before the child, as it will have an ID of 1.
+
+2)	process ID: 6029	parent process ID: 2363 	child process ID: 6030
+	process ID: 6030	parent process ID: 1		child process ID: 6031
+	process ID: 6031	parent process ID: 6030		child process ID: 6032
+	process ID: 6032	parent process ID: 6031		child process ID: 0
+
+3)  the largest number of processes I was able to run was 376.  However, I think I tried to call 2,500.  There were a lot of rolls that gave me around the 300 - 310 range.  And, obviously it looks like the more processes I try to run, the more 1's that show up for the parent process IDs.
+
+4)  The most amount of processes I was able to run was 27.
+
+5)  With the loop, and the sleep function called before the final fprintf, the program will call n number of processes, but each individual process will be printed k number of times, and then the sleep function will take over, and some time will pass before the next process in line is printed out.
+
+6)  The 'wait' function call will force the fprintf statement to print the process ID's in descending order.   
+
+7)  For the most part, the output looks the exact same as when the fprintf statement had all the variables passed to it in one line.  However, there was a weird anomaly that only happened every now and again, and it looked like two process were trying to be printed out at the same time.  So, for instance, the 'i' would look something like 'i:2i:3'.  It then print out i:2's process ID and parent ID, but then print out i:3's process ID and parent process ID, but then switch back to process i:2's child process ID, and finish with i:3's child process ID.  You can tell which is which because you can tell which ID belongs to which process.
+
+8)  When running the modified code from 3.1, only one of the processes will be able to print out the correct string once the buffer is full.  After that initial process with the full buffer prints to stderr, the other processes will then print, but only contain junk data.
