@@ -38,16 +38,6 @@ int main(int argc, char *argv[]) {
 	ptr = parser(&token, language, &filePtr, &c, &lineNum, &colNum, &flag_isWaitingForNewLine);
 	varCheck(ptr);
 	target(ptr, &fp);
-//	cout << "STOP" << endl;
-	
-/*	vector<tuple<string, int>> v;
-	v.push_back(make_tuple("hello", 1));
-	v.push_back(make_tuple("goodbye", 2));
-	for(int i = 0; i < v.size(); i++) {
-		if(get<0>(v.at(i)) == "hello") {
-			cout << "yes " << i << endl;
-		}
-	}
-*/
+
 	return 0;
 }
