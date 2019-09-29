@@ -1,0 +1,7 @@
+The intent of this program is to create a parse tree from words read either from an input file, or from input typed on the command line.
+When a word is read, a node is made containing a "key" which is the first letter of that word.
+The word itself is then stored in a container inside that node.
+If another word is read with the same first letter, that word will be placed in the node containing its "key".  
+The words are stored alphabetically.
+If a word is already stored in the tree, it will not be stored another time.
+Once the end of the file is reached, the tree is printed out using: in-order traversal, pre-order traversal, and post-order traversal.
