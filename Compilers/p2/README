@@ -1,0 +1,9 @@
+This project builds on p1, by replacing "testScanner" with another driver program that will attempt to build a parse tree from a 
+given BNF.
+
+All of the same token instance information is stored in a parse tree node.
+
+If an error is found while building a token, it will exit with proper dialogue to pinpoint the reason for the error, and its location in
+the file.
+
+Once the EOF token has been reached, the tree is printed out using post-order traversal.
