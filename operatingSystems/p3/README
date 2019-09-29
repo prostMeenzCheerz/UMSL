@@ -1,5 +1,3 @@
-THIS PROJECT IS NOT COMPLETED IN ACCORDANCE WITH THE INSTRUCTIONS, AND SHOULD BE CHECKED FOR PROCESSES RUNNING, AND MEMORY THAT ISN'T CLEARED UP.
-
 -To handle concurrency I used semaphores instead of message queues.
 
 -My approach was to create an array of 18 structs that would be given out to each user process.  
