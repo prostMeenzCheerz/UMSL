@@ -1,3 +1,10 @@
+This project is designed to showcase race conditions among child processes.
+Each child process has a time for when it is supposed to terminate.
+semaphores are used a locking mechanism to ensure that only process is in a critical section at a time.
+Once a child process is in its critical section, it will write a message to a shared message buffer, and terminate.
+If the message buffer is full from another child process, then it will have to wait in its critical section until it is allowed
+to write to the buffer.
+
 For this project, I decided to use an unamed SysV semaphore, because I was unable to get the named POSIX semaphore to work properly.
 
 I tried my best to modularize my code, so all of the function definitions are below main.
