@@ -1,6 +1,7 @@
 This program is designed to mimic how operating systems schedule jobs based on resource allocation.
 
-It uses 
+It uses the bankers alogorithm to determine whether or not an incoming job should be granted its resources based on the amount of 
+resources available, the amount of resources that are already allocated, and what jobs are blocked based on resources needed.
 
 to run the program, type ./oss
 
