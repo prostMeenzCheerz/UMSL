@@ -1,3 +1,7 @@
+This program is designed to mimic how operating systems schedule jobs based on resource allocation.
+
+It uses 
+
 to run the program, type ./oss
 
 for verbose on, use the getopt -v then type "on"
