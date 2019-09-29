@@ -1,4 +1,4 @@
-This project builds on p1, by replacing "testScanner" with another driver program that will attempt to build a parse tree from a 
+This project builds on p1, by replacing "testScanner" with another driver that will attempt to build a parse tree from a 
 given BNF.
 
 All of the same token instance information is stored in a parse tree node.
