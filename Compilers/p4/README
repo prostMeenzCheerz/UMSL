@@ -1,0 +1,2 @@
+This program takes the created parse tree generated from an input file, or text entered on the command line, and attempts to print out
+a working version of the program in the form of assembly language instructions.
