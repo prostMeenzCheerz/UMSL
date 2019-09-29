@@ -1,3 +1,7 @@
+This project is used to increment a "clock" by spawning child processes, having those children increment the clock, and then die.
+The user can determine the total number of child processes that will be the program exits, as well as the number of child processes
+that are allowed to be running at one time.
+
 To run this project, first type make on the command line to compile everything and create the executibles: master and child.
 
 After running make, type ./master as the main executible.  You can then either type -h for a help message, or -n x for the number of total child processes to be forked off, followed by -s x for the total number of child processes to be running at any given time until the total number of processes have been forked.  
