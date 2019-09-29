@@ -1,3 +1,15 @@
+This program mimics a priority queue.
+It forks off child processes, and randomly gives them a priority level of either high or low.
+
+The child process is then placed into its subsequent queue.
+
+The main process, "oss", will handle each job that is placed at the head of the queue.  All high priority jobs are handled first.
+Once the high priority queue is cleared, low priority jobs will then be addressed.
+
+When a job is picked from the head of the queue, it will draw a random number, which will determine how long that job will take.  
+And it cannot be placed back into the queue until the main "clock" has reached that time.  It will either be given a job to do, or 
+told to terminate.
+
 -To handle concurrency I used semaphores instead of message queues.
 
 -My approach was to create an array of 18 structs that would be given out to each user process.  
